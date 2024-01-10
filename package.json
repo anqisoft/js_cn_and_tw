@@ -1,0 +1,36 @@
+{
+  "name": "@dishanqian/cn_and_tw",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.min.js",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anqisoft/js_cn_and_tw.git"
+  },
+  "keywords": [
+    "anqi",
+    "dishanqian",
+    "zh_cn",
+    "zh_tw",
+    "i18n"
+  ],
+  "author": "anqisoft@gmail.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/anqisoft/js_cn_and_tw/issues"
+  },
+  "homepage": "https://github.com/anqisoft/js_cn_and_tw#readme",
+  "files": [
+    "src/*.js",
+    "dist/*.js"
+  ],
+  "dependencies": {
+  }
+}
