@@ -1,8 +1,8 @@
 {
   "name": "@dishanqian/cn_and_tw",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
-  "main": "dist/index.min.js",
+  "main": "index.min.js",
   "directories": {
     "doc": "doc",
     "test": "test"
@@ -28,8 +28,7 @@
   },
   "homepage": "https://github.com/anqisoft/js_cn_and_tw#readme",
   "files": [
-    "src/*.js",
-    "dist/*.js"
+    "*.js"
   ],
   "dependencies": {
   }
