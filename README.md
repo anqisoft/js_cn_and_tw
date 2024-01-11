@@ -14,7 +14,8 @@ Feature: Provide the following content,<ul>
 
 #### <zh_cn>
 提供简体与繁体双向转换基础函数。<br>
-功能：提供以下内容，<ul><li>字符串数组，简体单字清单 SIMPLIFIED_CHINESE_CHARS</li>
+功能：提供以下内容，<ul>
+  <li>字符串数组，简体单字清单 SIMPLIFIED_CHINESE_CHARS</li>
   <li>字符串数组，繁体单字清单 TRADITIONAL_CHINESE_CHARS</li>
   <li>字符串数组，简转繁词组对应表 CHINESE_PHRASES_FROM_SIMPLIFIED_TO_TRADITIONAL</li>
   <li>字符串数组，繁转简词组对应表 CHINESE_PHRASES_FROM_TRADITIONAL_TO_SIMPLIFIED</li>
@@ -25,8 +26,8 @@ Feature: Provide the following content,<ul>
 
 #### <zh_tw>
 提供簡體與繁體雙向轉換基礎函數。<br>
-創建：2024年1月10日 07:02:57<br>
-功能：提供以下內容，<ul><li>字元串數組，簡體單字清單 SIMPLIFIED_CHINESE_CHARS</li>
+功能：提供以下內容，<ul>
+  <li>字元串數組，簡體單字清單 SIMPLIFIED_CHINESE_CHARS</li>
   <li>字元串數組，繁體單字清單 TRADITIONAL_CHINESE_CHARS</li>
   <li>字元串數組，簡轉繁片語對應錶 CHINESE_PHRASES_FROM_SIMPLIFIED_TO_TRADITIONAL</li>
   <li>字元串數組，繁轉簡片語對應錶 CHINESE_PHRASES_FROM_TRADITIONAL_TO_SIMPLIFIED</li>
