@@ -1,8 +1,12 @@
 {
   "name": "@dishanqian/cn_and_tw",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "index.min.js",
+  "bin": {
+    "cn_to_tw": "cn_to_tw.js",
+    "tw_to_cn": "tw_to_cn.js"
+  },
   "directories": {
     "doc": "doc",
     "test": "test"
@@ -29,7 +33,5 @@
   "homepage": "https://github.com/anqisoft/js_cn_and_tw#readme",
   "files": [
     "*.js"
-  ],
-  "dependencies": {
-  }
+  ]
 }

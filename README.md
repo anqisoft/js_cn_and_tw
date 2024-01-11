@@ -36,15 +36,28 @@ Feature: Provide the following content,<ul>
 </ul>
 </zh_tw>
 
-### Import
-```typescript
-import { cn2tw, tw2cn } from 'https://deno.land/x/cn_and_tw@v0.0.3/index.ts';
+
+### Usage1
+```bash
+npm i -g @dishanqian/cn_and_tw
+cn_to_tw 个 计算机 天干
+tw_to_cn 個 計算機 天干
 ```
 
-### Usage
-```typescript
+### Usage2
+```bash
+npm i @dishanqian/cn_and_tw
+```
+```javascript
+const { cn2tw, tw2cn } = require('@dishanqian/cn_and_tw');
 ['个', '计算机', '天干'].forEach(from => console.log(`${from}=>${cn2tw(from)}`));
 ['個', '計算機', '天干'].forEach(from => console.log(`${from}=>${tw2cn(from)}`));
+```
+
+### Develop
+```bash
+git clone git+ssh://git@github.com/anqisoft/js_cn_and_tw
+cd js_cn_and_tw
 ```
 
 ## This
